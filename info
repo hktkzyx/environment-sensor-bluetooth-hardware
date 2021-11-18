@@ -4,7 +4,7 @@
   "name": "bluetooth_environment_sensor",
   "content": "",
   "created_at": "2021-11-14 14:00:24",
-  "updated_at": "2021-11-18 17:29:07",
+  "updated_at": "2021-11-18 18:01:25",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "e04a671853d02c472e5d0c06fd3867c1",
       "thumb": "/images/thumb-default.png",
       "components": {
         "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
@@ -84,9 +84,10 @@
           "C0603",
           "C2,C9,C13",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C19702",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
@@ -112,9 +113,10 @@
           "C0603",
           "C4,C8,C10,C11,C14,C16",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C14663",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
@@ -155,9 +157,10 @@
           "C0603",
           "C12,C15",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C15849",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
@@ -257,9 +260,10 @@
           "R2010",
           "R1",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C159205",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RTT20R390FTE",
+            "BOM_Manufacturer": "RALEC",
             "puuid": "c4075c634e0a4f9f882d887a8a405f77",
             "uuid": "b38930ec9dad495da713d58c2c1114c1"
           }
@@ -270,9 +274,10 @@
           "R0603",
           "R2,R14",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C21190",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1001T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -283,9 +288,10 @@
           "R0603",
           "R3",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C22940",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF2401T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -296,9 +302,10 @@
           "R0603",
           "R4",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C22765",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1201T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -309,9 +316,10 @@
           "R0603",
           "R5",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C22775",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1000T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -322,9 +330,10 @@
           "R0603",
           "R6,R8",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C4216",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF3302T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -335,9 +344,10 @@
           "R0603",
           "R7,R9",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C23186",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF5101T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -348,9 +358,10 @@
           "R0603",
           "R10,R13",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C25804",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1002T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -361,9 +372,10 @@
           "R0603",
           "R11,R12",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C22790",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1202T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -374,9 +386,10 @@
           "R0603",
           "R15,R16",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C23162",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
@@ -516,11 +529,11 @@
           }
         ]
       ],
-      "updateTime": 1636977125,
+      "updateTime": 1637229685,
       "createTime": 1636869665,
       "histories": [],
       "created_at": "2021-11-14 14:01:05",
-      "updated_at": "2021-11-15 19:52:05"
+      "updated_at": "2021-11-18 18:01:25"
     },
     {
       "uuid": "a84d9c3401172ba71bbf7466d74c5dd8",
@@ -565,5 +578,5 @@
   "title": "bluetooth_environment_sensor",
   "foldername": "bluetooth_environment_sensor",
   "schfilename": "bluetooth_environment_sensor.json",
-  "schfilemtime": 1636977125918
+  "schfilemtime": 1637229685232
 }
