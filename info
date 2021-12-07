@@ -4,7 +4,7 @@
   "name": "bluetooth_environment_sensor",
   "content": "",
   "created_at": "2021-11-14 14:00:24",
-  "updated_at": "2021-12-06 12:14:19",
+  "updated_at": "2021-12-06 16:16:16",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "490ad7435cd2defa57225c91893e904d",
+      "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
@@ -529,11 +529,11 @@
           }
         ]
       ],
-      "updateTime": 1638764059,
+      "updateTime": 1638778576,
       "createTime": 1636869665,
       "histories": [],
       "created_at": "2021-11-14 14:01:05",
-      "updated_at": "2021-12-06 12:14:19"
+      "updated_at": "2021-12-06 16:16:16"
     },
     {
       "uuid": "a84d9c3401172ba71bbf7466d74c5dd8",
@@ -567,16 +567,16 @@
         "7568fee05bc44581b2c32625ae15b3f8": 1
       },
       "BOM": [],
-      "updateTime": 1638764057,
+      "updateTime": 1638778555,
       "createTime": 1636969444,
       "histories": [],
       "created_at": "2021-11-15 17:44:04",
-      "updated_at": "2021-12-06 12:14:17"
+      "updated_at": "2021-12-06 16:15:55"
     }
   ],
   "sort": [],
   "title": "bluetooth_environment_sensor",
   "foldername": "bluetooth_environment_sensor",
   "schfilename": "bluetooth_environment_sensor.json",
-  "schfilemtime": 1638764059467
+  "schfilemtime": 1638778577040
 }
