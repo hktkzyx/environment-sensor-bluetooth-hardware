@@ -4,7 +4,7 @@
   "name": "bluetooth_environment_sensor",
   "content": "",
   "created_at": "2021-11-14 14:00:24",
-  "updated_at": "2021-12-06 16:16:16",
+  "updated_at": "2021-12-08 14:01:12",
   "stick": "",
   "documents": [
     {
@@ -18,7 +18,7 @@
         "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
         "22c78fe8c37a400987811c210efc5e0c": 1,
         "da53e3076dca7f227f530de614f40169": 1,
-        "bb009484ef804a24ac5d18c54b249586": 15,
+        "bb009484ef804a24ac5d18c54b249586": 16,
         "f80e29816fd30bb295222fb4f47bcc25": 3,
         "f5fb5a24e9edc515352eb800d4f925df": 1,
         "b38930ec9dad495da713d58c2c1114c1": 1,
@@ -26,12 +26,9 @@
         "cf6eca9c9efe444882712b3d5cec1885": 1,
         "fd83ea635c3146f08800d575f22cf556": 1,
         "207ddb7c704d527c92603ebf7138bd47": 2,
-        "588dac9f81df8f83843513972963b454": 1,
-        "c73c917a5efd0eb668693c71350984d5": 1,
-        "212e4e7ac253e44d17caceb02663d93c": 1,
         "47d98c9c68d6170a5582756e1844827b": 2,
         "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc": 1,
-        "5fc29bbb28384e0978b810ce38ae7e3b": 1,
+        "5fc29bbb28384e0978b810ce38ae7e3b": 2,
         "c2e807ee87db91caef0cb4a6ad38a339": 2,
         "7487acdffb2546c3ad2d28dea5865a13": 4,
         "df8405e2fa0e40a984c435ad4c8d5cf3": 1,
@@ -61,21 +58,6 @@
             "BOM_单价": "0.8",
             "puuid": "68468c010cd046f9a93675927bd6e15e",
             "uuid": "22c78fe8c37a400987811c210efc5e0c"
-          }
-        ],
-        [
-          "22uF",
-          1,
-          "CAP-SMD_L3.2-W1.6-R-RD",
-          "C1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "AVX",
-            "BOM_Manufacturer Part": "TAJA226K010RNJ",
-            "BOM_Supplier Part": "C11366",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f19f0a1399f04a86a8edacb9b9f147f4",
-            "uuid": "c73c917a5efd0eb668693c71350984d5"
           }
         ],
         [
@@ -122,21 +104,6 @@
           }
         ],
         [
-          "10uF",
-          1,
-          "CAP-SMD_L3.2-W1.6-R-RD",
-          "C5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "AVX",
-            "BOM_Manufacturer Part": "TAJA106K016RNJ",
-            "BOM_Supplier Part": "C7171",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "f19f0a1399f04a86a8edacb9b9f147f4",
-            "uuid": "212e4e7ac253e44d17caceb02663d93c"
-          }
-        ],
-        [
           "100nF",
           1,
           "CAP-SMD_L3.2-W1.6",
@@ -167,9 +134,9 @@
         ],
         [
           "SS14",
-          1,
+          2,
           "SMA_L4.4-W2.8-LS5.4-RD",
-          "D1",
+          "D1,D2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "SS14",
@@ -213,7 +180,7 @@
           "AO3400A",
           3,
           "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
-          "Q1,Q2,Q4",
+          "Q1,Q2,Q5",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -228,7 +195,7 @@
           "AO3401A",
           2,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "Q3,Q5",
+          "Q3,Q4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -326,9 +293,9 @@
         ],
         [
           "33k",
-          2,
+          1,
           "R0603",
-          "R6,R8",
+          "R6",
           {
             "BOM_Supplier Part": "C4216",
             "BOM_Supplier": "LCSC",
@@ -354,9 +321,9 @@
         ],
         [
           "10k",
-          2,
+          4,
           "R0603",
-          "R10,R13",
+          "R8,R10,R13,R17",
           {
             "BOM_Supplier Part": "C25804",
             "BOM_Supplier": "LCSC",
@@ -439,21 +406,6 @@
           }
         ],
         [
-          "AMS1117-3.3",
-          1,
-          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
-          "U3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "AMS",
-            "BOM_Manufacturer Part": "AMS1117-3.3",
-            "BOM_Supplier Part": "C6186",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "02ae667aca734971be8a5f58143dd564",
-            "uuid": "588dac9f81df8f83843513972963b454"
-          }
-        ],
-        [
           "TP4056",
           1,
           "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
@@ -529,11 +481,11 @@
           }
         ]
       ],
-      "updateTime": 1638778576,
+      "updateTime": 1638943248,
       "createTime": 1636869665,
       "histories": [],
       "created_at": "2021-11-14 14:01:05",
-      "updated_at": "2021-12-06 16:16:16"
+      "updated_at": "2021-12-08 14:00:48"
     },
     {
       "uuid": "a84d9c3401172ba71bbf7466d74c5dd8",
@@ -545,16 +497,16 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "9275fb41c0064223b77db30e06cb1bfe": 2,
+        "2a819e02584e46aea9f04b619de61270": 2,
+        "b3b82869fa924bae820e3a6cfb44d689": 3,
+        "398691f1f785460098bbe5ee6590333c": 16,
         "68468c010cd046f9a93675927bd6e15e": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 11,
-        "f19f0a1399f04a86a8edacb9b9f147f4": 4,
-        "9275fb41c0064223b77db30e06cb1bfe": 1,
+        "f19f0a1399f04a86a8edacb9b9f147f4": 2,
         "aec59894029a46ceaf88140c547eac8e": 1,
         "7b706fa666744f94a830dffb572df5db": 1,
-        "b3b82869fa924bae820e3a6cfb44d689": 3,
-        "2a819e02584e46aea9f04b619de61270": 2,
         "1fb6146406a34819a86e33d73e7677db": 3,
-        "398691f1f785460098bbe5ee6590333c": 15,
         "9ddd39b70cb145d2aa580e14c61a6eef": 4,
         "bf1b7b0953d842979fbb5acfa9df7d18": 1,
         "0f837632ee2c4f1295b837942b89638d": 1,
@@ -563,20 +515,19 @@
         "2b2a7bab00354c19b76a8043f7520dcf": 1,
         "c4075c634e0a4f9f882d887a8a405f77": 1,
         "9a066f903e65476fa74739d5e9b0ceb9": 1,
-        "02ae667aca734971be8a5f58143dd564": 1,
         "7568fee05bc44581b2c32625ae15b3f8": 1
       },
       "BOM": [],
-      "updateTime": 1638778555,
+      "updateTime": 1638943272,
       "createTime": 1636969444,
       "histories": [],
       "created_at": "2021-11-15 17:44:04",
-      "updated_at": "2021-12-06 16:15:55"
+      "updated_at": "2021-12-08 14:01:12"
     }
   ],
   "sort": [],
   "title": "bluetooth_environment_sensor",
   "foldername": "bluetooth_environment_sensor",
   "schfilename": "bluetooth_environment_sensor.json",
-  "schfilemtime": 1638778577040
+  "schfilemtime": 1638943248088
 }
