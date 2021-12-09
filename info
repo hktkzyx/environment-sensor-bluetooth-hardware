@@ -4,7 +4,7 @@
   "name": "bluetooth_environment_sensor",
   "content": "",
   "created_at": "2021-11-14 14:00:24",
-  "updated_at": "2021-12-08 14:01:12",
+  "updated_at": "2021-12-09 16:53:21",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "3fd8b99d4ed097275cfda8249816a2ba",
       "thumb": "/images/thumb-default.png",
       "components": {
         "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
@@ -61,53 +61,10 @@
           }
         ],
         [
-          "10uF",
-          3,
-          "C0603",
-          "C2,C9,C13",
-          {
-            "BOM_Supplier Part": "C19702",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
-            "BOM_Manufacturer": "SAMSUNG",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
-          "1uF",
-          2,
-          "CAP-SMD_L3.2-W1.6-R-RD",
-          "C3,C6",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "AVX",
-            "BOM_Manufacturer Part": "TAJA105K016RNJ",
-            "BOM_Supplier Part": "C7174",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f19f0a1399f04a86a8edacb9b9f147f4",
-            "uuid": "207ddb7c704d527c92603ebf7138bd47"
-          }
-        ],
-        [
-          "100nF",
-          6,
-          "C0603",
-          "C4,C8,C10,C11,C14,C16",
-          {
-            "BOM_Supplier Part": "C14663",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
-            "BOM_Manufacturer": "YAGEO",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
           "100nF",
           1,
           "CAP-SMD_L3.2-W1.6",
-          "C7",
+          "C1",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AVX",
@@ -122,7 +79,7 @@
           "1uF",
           2,
           "C0603",
-          "C12,C15",
+          "C2,C13",
           {
             "BOM_Supplier Part": "C15849",
             "BOM_Supplier": "LCSC",
@@ -130,6 +87,49 @@
             "BOM_Manufacturer": "SAMSUNG",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10uF",
+          3,
+          "C0603",
+          "C3,C6,C7",
+          {
+            "BOM_Supplier Part": "C19702",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0603",
+          "C4,C5,C8,C9,C12,C14",
+          {
+            "BOM_Supplier Part": "C14663",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C10,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TAJA105K016RNJ",
+            "BOM_Supplier Part": "C7174",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f19f0a1399f04a86a8edacb9b9f147f4",
+            "uuid": "207ddb7c704d527c92603ebf7138bd47"
           }
         ],
         [
@@ -177,25 +177,10 @@
           }
         ],
         [
-          "AO3400A",
-          3,
-          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
-          "Q1,Q2,Q5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "AOS",
-            "BOM_Manufacturer Part": "AO3400A",
-            "BOM_Supplier Part": "C20917",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
-            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
-          }
-        ],
-        [
           "AO3401A",
           2,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "Q3,Q4",
+          "Q1,Q7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -210,7 +195,7 @@
           "S8050_C2146",
           2,
           "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
-          "Q6,Q7",
+          "Q2,Q4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "CJ",
@@ -222,108 +207,25 @@
           }
         ],
         [
-          "0.39",
-          1,
-          "R2010",
-          "R1",
+          "AO3400A",
+          3,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q3,Q5,Q6",
           {
-            "BOM_Supplier Part": "C159205",
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "RTT20R390FTE",
-            "BOM_Manufacturer": "RALEC",
-            "puuid": "c4075c634e0a4f9f882d887a8a405f77",
-            "uuid": "b38930ec9dad495da713d58c2c1114c1"
-          }
-        ],
-        [
-          "1k",
-          2,
-          "R0603",
-          "R2,R14",
-          {
-            "BOM_Supplier Part": "C21190",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF1001T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "2.4k",
-          1,
-          "R0603",
-          "R3",
-          {
-            "BOM_Supplier Part": "C22940",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF2401T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "1.2k",
-          1,
-          "R0603",
-          "R4",
-          {
-            "BOM_Supplier Part": "C22765",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF1201T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "100",
-          1,
-          "R0603",
-          "R5",
-          {
-            "BOM_Supplier Part": "C22775",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF1000T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "33k",
-          1,
-          "R0603",
-          "R6",
-          {
-            "BOM_Supplier Part": "C4216",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF3302T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "5.1k",
-          2,
-          "R0603",
-          "R7,R9",
-          {
-            "BOM_Supplier Part": "C23186",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF5101T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3400A",
+            "BOM_Supplier Part": "C20917",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
           }
         ],
         [
           "10k",
           4,
           "R0603",
-          "R8,R10,R13,R17",
+          "R1,R6,R16,R17",
           {
             "BOM_Supplier Part": "C25804",
             "BOM_Supplier": "LCSC",
@@ -337,7 +239,7 @@
           "12k",
           2,
           "R0603",
-          "R11,R12",
+          "R2,R5",
           {
             "BOM_Supplier Part": "C22790",
             "BOM_Supplier": "LCSC",
@@ -348,14 +250,112 @@
           }
         ],
         [
+          "100",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "C22775",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1000T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "33k",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "C4216",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF3302T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R7,R15",
+          {
+            "BOM_Supplier Part": "C21190",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1001T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "0.39",
+          1,
+          "R2010",
+          "R8",
+          {
+            "BOM_Supplier Part": "C159205",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RTT20R390FTE",
+            "BOM_Manufacturer": "RALEC",
+            "puuid": "c4075c634e0a4f9f882d887a8a405f77",
+            "uuid": "b38930ec9dad495da713d58c2c1114c1"
+          }
+        ],
+        [
+          "5.1k",
+          2,
+          "R0603",
+          "R9,R12",
+          {
+            "BOM_Supplier Part": "C23186",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF5101T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
           "4.7k",
           2,
           "R0603",
-          "R15,R16",
+          "R10,R11",
           {
             "BOM_Supplier Part": "C23162",
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "2.4k",
+          1,
+          "R0603",
+          "R13",
+          {
+            "BOM_Supplier Part": "C22940",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF2401T5E",
+            "BOM_Manufacturer": "UniOhm",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1.2k",
+          1,
+          "R0603",
+          "R14",
+          {
+            "BOM_Supplier Part": "C22765",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "0603WAF1201T5E",
             "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
@@ -376,25 +376,10 @@
           }
         ],
         [
-          "XC6206P332MR_C347376",
-          1,
-          "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
-          "U1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C347376",
-            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
-            "BOM_Manufacturer Part": "XC6206P332MR",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "1fb6146406a34819a86e33d73e7677db",
-            "uuid": "fd83ea635c3146f08800d575f22cf556"
-          }
-        ],
-        [
           "DW01A_C351410",
           1,
           "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
-          "U2",
+          "U1",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C351410",
@@ -409,7 +394,7 @@
           "TP4056",
           1,
           "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
-          "U4",
+          "U2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "TOPPOWER",
@@ -421,25 +406,40 @@
           }
         ],
         [
-          "CH340C",
+          "XC6206P332MR_C347376",
           1,
-          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
-          "U5",
+          "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+          "U3",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "WCH",
-            "BOM_Manufacturer Part": "CH340C",
-            "BOM_Supplier Part": "C84681",
+            "BOM_Supplier Part": "C347376",
+            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
+            "BOM_Manufacturer Part": "XC6206P332MR",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
-            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+            "puuid": "1fb6146406a34819a86e33d73e7677db",
+            "uuid": "fd83ea635c3146f08800d575f22cf556"
+          }
+        ],
+        [
+          "SHT35-DIS-B",
+          1,
+          "DFN-8_L2.5-W2.5-P0.50-TL-EP",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C90161",
+            "BOM_Manufacturer": "Sensirion",
+            "BOM_Manufacturer Part": "SHT35-DIS-B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f4357788be8d479fac09857129c37500",
+            "uuid": "a78f3b1510874e8ea6aa8328c155c207"
           }
         ],
         [
           "BH1750FVI-TR",
           1,
           "WSOF-6_L2.6-W1.6-P0.50-TL-EP",
-          "U6",
+          "U5",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "ROHM",
@@ -451,18 +451,18 @@
           }
         ],
         [
-          "SHT35-DIS-B",
+          "CH340C",
           1,
-          "DFN-8_L2.5-W2.5-P0.50-TL-EP",
-          "U7",
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C90161",
-            "BOM_Manufacturer": "Sensirion",
-            "BOM_Manufacturer Part": "SHT35-DIS-B",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340C",
+            "BOM_Supplier Part": "C84681",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f4357788be8d479fac09857129c37500",
-            "uuid": "a78f3b1510874e8ea6aa8328c155c207"
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
           }
         ],
         [
@@ -481,11 +481,11 @@
           }
         ]
       ],
-      "updateTime": 1638943248,
+      "updateTime": 1639040001,
       "createTime": 1636869665,
       "histories": [],
       "created_at": "2021-11-14 14:01:05",
-      "updated_at": "2021-12-08 14:00:48"
+      "updated_at": "2021-12-09 16:53:21"
     },
     {
       "uuid": "a84d9c3401172ba71bbf7466d74c5dd8",
@@ -497,37 +497,37 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "9275fb41c0064223b77db30e06cb1bfe": 2,
-        "2a819e02584e46aea9f04b619de61270": 2,
-        "b3b82869fa924bae820e3a6cfb44d689": 3,
-        "398691f1f785460098bbe5ee6590333c": 16,
-        "68468c010cd046f9a93675927bd6e15e": 1,
+        "2b2a7bab00354c19b76a8043f7520dcf": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 11,
         "f19f0a1399f04a86a8edacb9b9f147f4": 2,
-        "aec59894029a46ceaf88140c547eac8e": 1,
-        "7b706fa666744f94a830dffb572df5db": 1,
+        "9275fb41c0064223b77db30e06cb1bfe": 2,
+        "2a819e02584e46aea9f04b619de61270": 2,
         "1fb6146406a34819a86e33d73e7677db": 3,
-        "9ddd39b70cb145d2aa580e14c61a6eef": 4,
-        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
-        "0f837632ee2c4f1295b837942b89638d": 1,
-        "f4357788be8d479fac09857129c37500": 1,
-        "bcc58561d22445c2b08855ecf0dba7c7": 1,
-        "2b2a7bab00354c19b76a8043f7520dcf": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 3,
+        "398691f1f785460098bbe5ee6590333c": 16,
         "c4075c634e0a4f9f882d887a8a405f77": 1,
         "9a066f903e65476fa74739d5e9b0ceb9": 1,
-        "7568fee05bc44581b2c32625ae15b3f8": 1
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "f4357788be8d479fac09857129c37500": 1,
+        "0f837632ee2c4f1295b837942b89638d": 1,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
+        "68468c010cd046f9a93675927bd6e15e": 1,
+        "aec59894029a46ceaf88140c547eac8e": 1,
+        "7b706fa666744f94a830dffb572df5db": 1,
+        "9ddd39b70cb145d2aa580e14c61a6eef": 4,
+        "bcc58561d22445c2b08855ecf0dba7c7": 1
       },
       "BOM": [],
-      "updateTime": 1638943272,
+      "updateTime": 1639039997,
       "createTime": 1636969444,
       "histories": [],
       "created_at": "2021-11-15 17:44:04",
-      "updated_at": "2021-12-08 14:01:12"
+      "updated_at": "2021-12-09 16:53:17"
     }
   ],
   "sort": [],
   "title": "bluetooth_environment_sensor",
   "foldername": "bluetooth_environment_sensor",
   "schfilename": "bluetooth_environment_sensor.json",
-  "schfilemtime": 1638943248088
+  "schfilemtime": 1639040001059
 }
