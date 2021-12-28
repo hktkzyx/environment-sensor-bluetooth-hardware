@@ -4,7 +4,7 @@
   "name": "bluetooth_environment_sensor",
   "content": "",
   "created_at": "2021-11-14 14:00:24",
-  "updated_at": "2021-12-28 19:07:55",
+  "updated_at": "2021-12-28 19:14:06",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "e625b1aeda57bcb8ee3de549557852e5",
+      "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
@@ -321,9 +321,9 @@
         ],
         [
           "4.7k",
-          2,
+          3,
           "R0603",
-          "R10,R11",
+          "R10,R11,R14",
           {
             "BOM_Supplier Part": "C23162",
             "BOM_Supplier": "LCSC",
@@ -342,20 +342,6 @@
             "BOM_Supplier Part": "C22940",
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "0603WAF2401T5E",
-            "BOM_Manufacturer": "UniOhm",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "1.2k",
-          1,
-          "R0603",
-          "R14",
-          {
-            "BOM_Supplier Part": "C22765",
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "0603WAF1201T5E",
             "BOM_Manufacturer": "UniOhm",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
@@ -481,11 +467,11 @@
           }
         ]
       ],
-      "updateTime": 1640689675,
+      "updateTime": 1640690006,
       "createTime": 1636869665,
       "histories": [],
       "created_at": "2021-11-14 14:01:05",
-      "updated_at": "2021-12-28 19:07:55"
+      "updated_at": "2021-12-28 19:13:26"
     },
     {
       "uuid": "a84d9c3401172ba71bbf7466d74c5dd8",
@@ -518,16 +504,16 @@
         "bcc58561d22445c2b08855ecf0dba7c7": 1
       },
       "BOM": [],
-      "updateTime": 1640689656,
+      "updateTime": 1640690046,
       "createTime": 1636969444,
       "histories": [],
       "created_at": "2021-11-15 17:44:04",
-      "updated_at": "2021-12-28 19:07:36"
+      "updated_at": "2021-12-28 19:14:06"
     }
   ],
   "sort": [],
   "title": "bluetooth_environment_sensor",
   "foldername": "bluetooth_environment_sensor",
   "schfilename": "bluetooth_environment_sensor.json",
-  "schfilemtime": 1640689675298
+  "schfilemtime": 1640690006561
 }
